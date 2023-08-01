@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #686de0;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 40%;
+    width: 40%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+h3{
+    opacity: 0.6;
+    font-size: 32px;
+    letter-spacing: 2px;
+    max-height: 50%;
+}
+.joke{
+    max-width: 90%;
+    letter-spacing: 1px;
+    height: 40%;
+    width: 75%;
+    text-align: center;
+    font-size: 24px;
+}
+.btn{
+    font-size: 18px;
+    padding:0.8rem;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #9f68e0;
+    margin: 12px;
+}
+.btn:focus{
+   
+    outline: none;
+}

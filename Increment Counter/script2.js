@@ -1,0 +1,23 @@
+const counters=document.querySelectorAll('.counter');
+
+counters.forEach(counter => {
+    counter.innerHTML='0';
+    function updateCounter()
+    {
+        const target=+counter.getAttribute('data-target');
+        let c=+counter.innerHTML;
+
+        const increment=target/200;
+
+        if(c<target)
+        {
+            counter.innerText = `${Math.min(Math.ceil(c), target)}`;
+            setTimeout(updateCounter,1)
+        }
+        else{
+            counter.innerText=target;
+        }
+    }
+    
+    updateCounter();
+});

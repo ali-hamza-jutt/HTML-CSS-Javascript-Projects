@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+    background-image: url('https://images.unsplash.com/photo-1631582053308-40f482e7ace5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1031&q=80');
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    filter: blur(70px);
+}
+.text{
+    color: #ffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+}
